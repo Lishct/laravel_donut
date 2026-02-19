@@ -13,6 +13,6 @@ class ProductController extends Controller
             ['name' => 'Binangor', 'location' => 'Tennesee', 'rating' => 3.4],
             ['name' => 'Donut town', 'location' => 'Flavor street', 'rating' => 5],
         ];
-        return view('places', compact('products'));
+        return view('places', compact('places'));
     }
 }
